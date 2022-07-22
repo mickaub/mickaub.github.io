@@ -37,6 +37,20 @@
         <h3>To find out more about github, click the image below:</h3>
         <a href="https://github.com/"><img src="https://imgs.search.brave.com/24LyBE6pTlr5JSY9F5tkgUz4HUHAbIXELvt5cW3BEXE/rs:fit:1080:1080:1/g:ce/aHR0cHM6Ly8yc3hj/Lm9yZy9Qb3J0YWxz/LzAvYWRhbS9Db250/ZW50LzRJcUJqeDNw/WEVDN2E3LWZWWDJH/QlEvSW1hZ2UvZ2l0/aHViLWxvZ28ucG5n/P3c9MTA4MCZzY2Fs/ZT1ib3RoJnF1YWxp/dHk9NTA" style="width:30vw;" alt="The github logo.">
         </a>
+        <br>
+        <br>
+        <form>
+            <fieldset> <!--Box around the forms inside-->
+                <legend>Type inside here:</legend>
+                <input type="text" id="input" name="input" placeholder="Insert Text Here" onkeydown="showInputEnter(event);">
+                <input type="submit" onclick="showInput();">
+            </fieldset>
+        </form>
+        <br>
+        <fieldset>
+            <label>Your input:</label>
+            <p><span id="display"></span>&nbsp;</p> <!-- &nbsp is space that is loaded, that is not a break-->
+        </fieldset>     
     </body>
     <script> 
         function bgChange(bg) { //changes background colour
@@ -62,6 +76,16 @@
         startTime(); /* Previously the Javascript clock was not working, despite being the same
         as tutorials showed. Upon further trial and error and research, it was found that rather
         than starting function in html, running the function in JS scrit worked properly. */
+
+        function showInput() { //clicking button copies text value to box
+                document.getElementById("display").innerHTML = document.getElementById("input").value;
+            }          
+            function showInputEnter(event) { //on enter button press, copies text value to box
+                if (event.key === "Enter") {
+                    event.preventDefault();
+                    document.getElementById("display").innerHTML = document.getElementById("input").value;
+                }                
+            }   
 
     </script>
 </html>
