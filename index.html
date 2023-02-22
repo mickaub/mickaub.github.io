@@ -166,12 +166,12 @@
             justify-content: center;         
             }            
     </style>
-    <body style="background-color:teal">
+    <body style="background-image:linear-gradient(teal,yellow)">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/87/three.js" type="text/javascript"></script>
         <h1 style="text-align:center"> Showcase website by Michael A</h1> <!--https://mickaub.github.io/-->
         <h2>Change background colour below:</h2>
-        <p>Click on the squares below to change the background colour.</p>        
-         <table style="width:300px;height:100px;border-style:solid;"> <!--table with elements that change background colour-->
+        <p>Click on the squares below to change the background colour:</p>        
+         <table style="width:400px;height:100px;border-style:solid;"> <!--table with elements that change background colour-->
             <tr>
                 <td onclick="bgChange(this.style.backgroundColor)"         
                 style="background-color:Khaki">
@@ -181,6 +181,9 @@
                 </td>
                 <td onclick="bgChange(this.style.backgroundColor)"         
                 style="background-color:Silver">
+                </td>
+                <td onclick="bgChange(this.style.backgroundImage)"         
+                style="background-image:linear-gradient(teal,yellow)">
                 </td>
             </tr>
          </table>
