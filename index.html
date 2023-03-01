@@ -90,6 +90,34 @@
                 </td>
             </tr>
         </table>
+        <br>
+        <h2>SVG Testing:</h2>
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 200 200">
+            <defs>
+            <style> line{stroke:black;
+                    stroke-width: 5;
+                    stroke-linecap: flat;
+                    stroke-linejoin: round;
+                    fill: none;}     
+                    .circle{stroke:black;
+                    stroke-width: 5;
+                    stroke-linecap: flat;
+                    stroke-linejoin: round;}   
+            </style>
+            </defs>
+            <rect style="fill:deepskyblue;" x="0" y="0" width="200" height="100"></rect>
+            <rect style="fill:royalblue;" x="0" y="100" width="200" height="100"></rect>
+            <rect style="fill:royalblue;stroke:black;stroke-width:5" x="2.5" y="25" width="25" height="75"></rect>
+            <rect style="fill:navy;stroke:black;stroke-width:5" x="25" y="25" width="75" height="75"></rect>
+            <rect style="fill:royalblue;stroke:black;stroke-width:5" x="100" y="25" width="75" height="75"></rect>
+            <rect style="fill:navy;stroke:black;stroke-width:5" x="175" y="25" width="22.5" height="75"></rect>
+            <line x1="0" y1="100" x2="200" y2="100"></line>
+            <line x1="50" y1="100" x2="75" y2="200"></line>
+            <line x1="100" y1="100" x2="125" y2="200"></line>
+            <line x1="150" y1="100" x2="175" y2="200"></line>
+            <line x1="74" y1="198" x2="177" y2="198"></line>
+            <ellipse class="circle" style="fill:yellow;" cx="100" cy="100" rx="30" ry="30"></ellipse>
+        </svg>
     </body> 
     <script> 
         function bgChange(bg) { //changes background colour
