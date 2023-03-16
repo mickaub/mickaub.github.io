@@ -69,8 +69,17 @@
                 This website is hosted on Github, a subsidiary of Microsoft. To see the code behind this website, visit <a target="_blank" href="https://github.com/mickaub/mickaub.github.io">here</a>.
             </p>
         </div> 
-        <h3>## Create HTML boilerplate ##
-            <br>
+        <button onclick="HTMLBP()">Show HTML boilerplate</button>
+        <div id="HTMLBoilerPlate">
+            <p>&lt;!DOCTYPE html&gt;<br>&lt;html lang="en"&gt;<br>&lt;head&gt;<br>&lt;title&gt;<br>&lt;/title&gt;<br>
+            &lt;link rel="icon" type="image/x-icon" href="/#.ico" /&gt;<br>&lt;link rel="apple-touch-icon" sizes="64x64" href="/#.png" /&gt;<br>
+            &lt;meta charset="UFT-8" /&gt;<br>&lt;meta name="viewport" content="width=device-width,initial-scale=1.0" /&gt;<br>       
+            &lt;/head&gt;<br>&lt;style&gt;<br>&lt;/style&gt;<br>&lt;body&gt;<br>&lt;/body&gt;<br>
+            &lt;script&gt;<br>&lt;/script&gt;<br>&lt;/html&gt;   
+            </p>        
+        </div>
+        <br>
+        <br>
             ## Create famicons for all github sites ##
         </h3>  
         <!--<div style="height:220px; overflow: hidden;"></div>-->
@@ -121,39 +130,7 @@
                     Maps Procedural: Clouds, Noise, Rust/Voronoi<br>Drivers<br>&lt;See: ARTSTATION for ideaas&gt;
                 </td>
             </tr>
-        </table>
-        <!-- being moved to new section
-            <br>
-        <div style="width:50%">
-        <h2>SVG Testing:</h2>
-        <svg id="SVG" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 200 200">
-            <defs>
-            <style> line{stroke:black;
-                    stroke-width: 5;
-                    stroke-linecap: flat;
-                    stroke-linejoin: round;
-                    fill: none;}     
-                    .circle{stroke:black;
-                    stroke-width: 5;
-                    stroke-linecap: flat;
-                    stroke-linejoin: round;}   
-            </style>
-            </defs>
-            <rect style="fill:deepskyblue;" x="0" y="0" width="200" height="100"></rect>
-            <rect style="fill:royalblue;" x="0" y="100" width="200" height="100"></rect>
-            <rect style="fill:royalblue;stroke:black;stroke-width:5" x="2.5" y="25" width="25" height="75"></rect>
-            <rect style="fill:navy;stroke:black;stroke-width:5" x="25" y="25" width="75" height="75"></rect>
-            <rect style="fill:royalblue;stroke:black;stroke-width:5" x="100" y="25" width="75" height="75"></rect>
-            <rect style="fill:navy;stroke:black;stroke-width:5" x="175" y="25" width="22.5" height="75"></rect>
-            <line x1="0" y1="100" x2="200" y2="100"></line>
-            <line x1="50" y1="100" x2="75" y2="200"></line>
-            <line x1="100" y1="100" x2="125" y2="200"></line>
-            <line x1="150" y1="100" x2="175" y2="205"></line>
-            <line x1="74" y1="198" x2="173" y2="198"></line>
-            <ellipse class="circle" style="fill:yellow;" cx="100" cy="100" rx="30" ry="30"></ellipse>
-        </svg>
-        </div>
-        <button onclick="window.print();return false;">Print Page</button> -->
+        </table>        
     </body> 
     <script> 
         function bgChange(bg) { //changes background colour
@@ -184,6 +161,18 @@
                 event.preventDefault();
                 document.getElementById("display").innerHTML = document.getElementById("input").value;
             }                
-        }            
+        }           
+        
+        document.getElementById("HTMLBoilerPlate").style.display="none";
+
+        function HTMLBP() {
+            var x = document.getElementById("HTMLBoilerPlate");
+            if (x.style.display === "none") {
+            x.style.display = "block";
+            }
+            else {
+                x.style.display = "none";            
+            }
+        }
     </script>   
 </html>
