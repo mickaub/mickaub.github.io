@@ -65,6 +65,15 @@
             </p>        
         </div>
         <br>
+        <button onclick="JSBP()">Show JS boilerplate</button>
+        <div id="JSBoilerPlate">
+            <p>&lt;!DOCTYPE html&gt;<br>&lt;html lang="en"&gt;<br>&lt;head><br>&lt;title&gt;<br>&lt;/title&gt;<br>
+            &lt;meta charset="UFT-8" /&gt;<br>&lt;meta name="viewport" content="width=device-width,initial-scale=1.0" /&gt;<br>
+            &lt;/head&gt;<br>&lt;style&gt;<br>&lt;/style&gt;<br>&lt;body&gt;<br>&lt;div id="TestDisplay"&gt;<br>&lt;/div&gt;<br>&lt;/body&gt;<br>
+            &lt;script&gt;<br>let text = new String;<br>text = "hello" + "&lt;br&gt;" + "world";<br>document.getElementById("TestDisplay").innerHTML = text;<br>&lt;/script&gt;<br>&lt;/html&gt;
+            </p>
+        </div>
+        <br>
         <br>
             ## Create famicons for all github sites ##
             ## Learn Bootstrap 5 w3schools
@@ -156,6 +165,18 @@
 
         function HTMLBP() {
             var x = document.getElementById("HTMLBoilerPlate");
+            if (x.style.display === "none") {
+            x.style.display = "block";
+            }
+            else {
+                x.style.display = "none";            
+            }
+        }
+
+        document.getElementById("JSBoilerPlate").style.display="none";
+
+        function JSBP() {
+            var x = document.getElementById("JSBoilerPlate");
             if (x.style.display === "none") {
             x.style.display = "block";
             }
