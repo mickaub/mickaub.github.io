@@ -20,3 +20,8 @@ Add nice curve to lower third of webpage.
 Add Cube somewhere in webpage, possibly as rotating gif/svg.
 Replace coding goals with list of completed coding learning paths, including logos if possible.
 Add diagram of future coding goals.
+
+Removed Clock, and also cleared some unused Javascript code.
+Began converting to Bootstrap.
+Saved images of website before Bootstrap.
+Created left margin for entire page via container.

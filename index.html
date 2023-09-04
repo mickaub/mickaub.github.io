@@ -5,174 +5,148 @@
             Github Website            
         </title>
         <link rel="icon" type="image/x-icon" href="/BlueCubeGithubPhoto.ico" />
-        <link rel="apple-touch-icon" sizes="64x64" href="/BlueCubeGithubPhoto.png" />
+        <link rel="apple-touch-icon" sizes="64x64" href="/BlueCubeGithubPhoto.png" />        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <meta charset="UFT-8" />
-        <meta name="viewport" content="width=device-width,initial-scale=1.0" />        
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />        
     </head>
-    <style>  /*using inline style for main page currently*/   
+    <style>  /*mostly using inline style for main page currently*/       
     </style>
-    <body style="background:linear-gradient(teal,yellow);">    
-        <h1 style="text-align:center"> Showcase website by Michael A</h1> <!--https://mickaub.github.io/-->        
-        <h2>Click on the squares below to change the background colour:</h2>        
-         <table style="width:400px;height:100px;border-style:solid;"> <!--table with elements that change background colour-->
-            <tr>
-                <td onclick="bgChange(this.style.backgroundColor)"         
-                style="background-color:Khaki">
-                </td>
-                <td onclick="bgChange(this.style.backgroundColor)" 
-                style="background-color:PaleGreen">
-                </td>
-                <td onclick="bgChange(this.style.backgroundColor)"         
-                style="background-color:Silver">
-                </td>
-                <td onclick="bgChange(this.style.backgroundImage)"         
-                style="background-image:linear-gradient(teal,yellow)">
-                </td>
-            </tr>
-         </table>
-        <hr>       
-        <h2>Javascript Clock</h2>        
-        <div id="clock"></div>        
-        <hr>
-        <h2>Vanilla JS/HTML Spoderman game</h2>
-        <p>See <a target="_blank" href="https://mickaub.github.io/SpodermanHTMLJSGame/">HERE</a> for a JS/HTML game starring Spoderman traversing his city.</p>
-        <hr>
-        <h2>ThreeJS 3D models/animation</h2>
-        <p>See <a target="_blank" href="https://mickaub.github.io/ThreeJSBasic/">HERE</a>
-        for various ThreeJS projects/animations</p>
-        <hr>
-        <h2>ThreeJS Haloo game</h2>
-        <p>See <a target="_blank" href="https://mickaub.github.io/Haloo/">HERE</a> for a fun basic Halo like game that I have developed in THREEJS. Preview shown below:</p>  
-        <img src="https://drive.google.com/uc?export=view&id=1YL3Lu7fqR8UN-RCo3R6hL-vX0wPV5pPG" alt="Haloo gameplay image" width="256" height="256"> <!--edit drive link to use https://drive.google.com/uc?export=view&id= before ID of image file-->
-        <hr>
-        <h2>SVG Testing</h2>
-        <p>See <a target="_blank" href="https://mickaub.github.io/SVG/">HERE</a>
-        for an SVG Testing area with printout available.</p>
-        <hr>
-        <h2>Javascript Games</h2>
-        <p>Four games I will try to code in JS are: Battleships, Space Invaders, Minesweeper and Tetris.
-        <br>I have also coded a simplified version of Pokemon as well, to further improve my coding skills. 
-        </p>
-        <p>Click <a target="_blank" href="https://mickaub.github.io/Battleshipv1/">HERE</a>
-        for my version of the battleship game.</p>
-        <p>Click <a target="_blank" href=" https://mickaub.github.io/JSGameMinesweeper/">HERE</a> for my version of the MineSweeper game.</p>
-        <p>Click <a target="_blank" href="https://mickaub.github.io/SpaceInvadersJSGame/">HERE</a> for my version of the Space Invaders game.</p>
-        <p>Click <a target="_blank" href="https://mickaub.github.io/Solitaire/">HERE</a> for my version of Solitaire</p>
-        <p>Click <a target="_blank" href="https://mickaub.github.io/PokemonJS/">HERE</a> for my version of pokemon.
-        <div>
-        <hr>
-        <p>
-            <img src="https://imgs.search.brave.com/24LyBE6pTlr5JSY9F5tkgUz4HUHAbIXELvt5cW3BEXE/rs:fit:1080:1080:1/g:ce/aHR0cHM6Ly8yc3hj/Lm9yZy9Qb3J0YWxz/LzAvYWRhbS9Db250/ZW50LzRJcUJqeDNw/WEVDN2E3LWZWWDJH/QlEvSW1hZ2UvZ2l0/aHViLWxvZ28ucG5n/P3c9MTA4MCZzY2Fs/ZT1ib3RoJnF1YWxp/dHk9NTA" style="width:16px;" alt="The github logo.">
-            This website is hosted on Github, a subsidiary of Microsoft. To see the code behind this website, visit <a target="_blank" href="https://github.com/mickaub/mickaub.github.io">here</a>.
-        </p>
-        </div> 
-        <p>Counter is <a target="_blank" href="https://mickaub.github.io/counter/">HERE</a></p>
-        <button onclick="HTMLBP()">Show HTML boilerplate</button>
-        <div id="HTMLBoilerPlate">
-            <p>&lt;!DOCTYPE html&gt;<br>&lt;html lang="en"&gt;<br>&lt;head&gt;<br>&lt;title&gt;<br>&lt;/title&gt;<br>
-            &lt;link rel="icon" type="image/x-icon" href="/#.ico" /&gt;<br>&lt;link rel="apple-touch-icon" sizes="64x64" href="/#.png" /&gt;<br>
-            &lt;meta charset="UFT-8" /&gt;<br>&lt;meta name="viewport" content="width=device-width,initial-scale=1.0" /&gt;<br>       
-            &lt;/head&gt;<br>&lt;style&gt;<br>&lt;/style&gt;<br>&lt;body&gt;<br>&lt;/body&gt;<br>
-            &lt;script&gt;<br>&lt;/script&gt;<br>&lt;/html&gt;   
-            </p>        
-        </div>
-        <br>
-        <button onclick="JSBP()">Show JS boilerplate</button>
-        <div id="JSBoilerPlate">
-            <p>&lt;!DOCTYPE html&gt;<br>&lt;html lang="en"&gt;<br>&lt;head><br>&lt;title&gt;<br>&lt;/title&gt;<br>
-            &lt;meta charset="UFT-8" /&gt;<br>&lt;meta name="viewport" content="width=device-width,initial-scale=1.0" /&gt;<br>
-            &lt;/head&gt;<br>&lt;style&gt;<br>&lt;/style&gt;<br>&lt;body&gt;<br>&lt;div id="TestDisplay"&gt;<br>&lt;/div&gt;<br>&lt;/body&gt;<br>
-            &lt;script&gt;<br>let text = new String;<br>text = "hello" + "&lt;br&gt;" + "world";<br>document.getElementById("TestDisplay").innerHTML = text;<br>&lt;/script&gt;<br>&lt;/html&gt;
+    <body style="background:linear-gradient(teal,yellow);">  
+        <div class="ml-4 container">  
+            <h1 style="text-align:center"> Showcase website by Michael A</h1> <!--https://mickaub.github.io/-->        
+            <h2>Click on the squares below to change the background colour:</h2>        
+            <table style="width:400px;height:100px;border-style:solid;"> <!--table with elements that change background colour-->
+                <tr>
+                    <td onclick="bgChange(this.style.backgroundColor)"         
+                    style="background-color:Khaki">
+                    </td>
+                    <td onclick="bgChange(this.style.backgroundColor)" 
+                    style="background-color:PaleGreen">
+                    </td>
+                    <td onclick="bgChange(this.style.backgroundColor)"         
+                    style="background-color:Silver">
+                    </td>
+                    <td onclick="bgChange(this.style.backgroundImage)"         
+                    style="background-image:linear-gradient(teal,yellow)">
+                    </td>
+                </tr>
+            </table>
+            <hr>            
+            <h2>Vanilla JS/HTML Spoderman game</h2>
+            <p>See <a target="_blank" href="https://mickaub.github.io/SpodermanHTMLJSGame/">HERE</a> for a JS/HTML game starring Spoderman traversing his city.</p>                  
+            <hr>
+            <h2>ThreeJS 3D models/animation</h2>
+            <p>See <a target="_blank" href="https://mickaub.github.io/ThreeJSBasic/">HERE</a>
+            for various ThreeJS projects/animations</p>
+            <hr>
+            <h2>ThreeJS Haloo game</h2>
+            <p>See <a target="_blank" href="https://mickaub.github.io/Haloo/">HERE</a> for a fun basic Halo like game that I have developed in THREEJS. Preview shown below:</p>  
+            <img src="https://drive.google.com/uc?export=view&id=1YL3Lu7fqR8UN-RCo3R6hL-vX0wPV5pPG" alt="Haloo gameplay image" width="256" height="256"> <!--edit drive link to use https://drive.google.com/uc?export=view&id= before ID of image file-->
+            <hr>
+            <h2>SVG Testing</h2>
+            <p>See <a target="_blank" href="https://mickaub.github.io/SVG/">HERE</a>
+            for an SVG Testing area with printout available.</p>
+            <hr>
+            <h2>Javascript Games</h2>
+            <p>Four games I will try to code in JS are: Battleships, Space Invaders, Minesweeper and Tetris.
+            <br>I have also coded a simplified version of Pokemon as well, to further improve my coding skills. 
             </p>
+            <p>Click <a target="_blank" href="https://mickaub.github.io/Battleshipv1/">HERE</a>
+            for my version of the battleship game.</p>
+            <p>Click <a target="_blank" href=" https://mickaub.github.io/JSGameMinesweeper/">HERE</a> for my version of the MineSweeper game.</p>
+            <p>Click <a target="_blank" href="https://mickaub.github.io/SpaceInvadersJSGame/">HERE</a> for my version of the Space Invaders game.</p>
+            <p>Click <a target="_blank" href="https://mickaub.github.io/Solitaire/">HERE</a> for my version of Solitaire</p>
+            <p>Click <a target="_blank" href="https://mickaub.github.io/PokemonJS/">HERE</a> for my version of pokemon.
+            <div>
+            <hr>
+            <p>
+                <img src="https://imgs.search.brave.com/24LyBE6pTlr5JSY9F5tkgUz4HUHAbIXELvt5cW3BEXE/rs:fit:1080:1080:1/g:ce/aHR0cHM6Ly8yc3hj/Lm9yZy9Qb3J0YWxz/LzAvYWRhbS9Db250/ZW50LzRJcUJqeDNw/WEVDN2E3LWZWWDJH/QlEvSW1hZ2UvZ2l0/aHViLWxvZ28ucG5n/P3c9MTA4MCZzY2Fs/ZT1ib3RoJnF1YWxp/dHk9NTA" style="width:16px;" alt="The github logo.">
+                This website is hosted on Github, a subsidiary of Microsoft. To see the code behind this website, visit <a target="_blank" href="https://github.com/mickaub/mickaub.github.io">here</a>.
+            </p>
+            </div> 
+            <p>Counter is <a target="_blank" href="https://mickaub.github.io/counter/">HERE</a></p>
+            <button onclick="HTMLBP()">Show HTML boilerplate</button>
+            <div id="HTMLBoilerPlate">
+                <p>&lt;!DOCTYPE html&gt;<br>&lt;html lang="en"&gt;<br>&lt;head&gt;<br>&lt;title&gt;<br>&lt;/title&gt;<br>
+                &lt;link rel="icon" type="image/x-icon" href="/#.ico" /&gt;<br>&lt;link rel="apple-touch-icon" sizes="64x64" href="/#.png" /&gt;<br>
+                &lt;meta charset="UFT-8" /&gt;<br>&lt;meta name="viewport" content="width=device-width,initial-scale=1.0" /&gt;<br>       
+                &lt;/head&gt;<br>&lt;style&gt;<br>&lt;/style&gt;<br>&lt;body&gt;<br>&lt;/body&gt;<br>
+                &lt;script&gt;<br>&lt;/script&gt;<br>&lt;/html&gt;   
+                </p>        
+            </div>
+            <br>
+            <button onclick="JSBP()">Show JS boilerplate</button>
+            <div id="JSBoilerPlate">
+                <p>&lt;!DOCTYPE html&gt;<br>&lt;html lang="en"&gt;<br>&lt;head><br>&lt;title&gt;<br>&lt;/title&gt;<br>
+                &lt;meta charset="UFT-8" /&gt;<br>&lt;meta name="viewport" content="width=device-width,initial-scale=1.0" /&gt;<br>
+                &lt;/head&gt;<br>&lt;style&gt;<br>&lt;/style&gt;<br>&lt;body&gt;<br>&lt;div id="TestDisplay"&gt;<br>&lt;/div&gt;<br>&lt;/body&gt;<br>
+                &lt;script&gt;<br>let text = new String;<br>text = "hello" + "&lt;br&gt;" + "world";<br>document.getElementById("TestDisplay").innerHTML = text;<br>&lt;/script&gt;<br>&lt;/html&gt;
+                </p>
+            </div>
+            <br>
+            <br>
+                ## Create famicons for all github sites ##            
+                ## Make website more accessible
+            </h3>  
+            <!--<div style="height:220px; overflow: hidden;"></div>-->
+            <table style="width:400px;border-style:solid;border-color:darkblue">
+                <tr><th style="border-style:solid;border-color:darkblue"><h2>TRYHACKME Learning</h2></th></tr>
+                <tr><td><b>Introduction to Cyber Security:</b><br>Intro to Offensive Security<br>Intro to Defensive Security</td></td></tr>
+                <tr><td><b>Pre-security:</b><br>Network Fundamentals<br>How the web works<br>
+                Linux fundamentals<br>Windows fundamentals</td></tr>
+                <tr><td><b>Web fundamentals:</b><br>Introduction to web hacking <b>* HERE</b></b><br>Burp suite (web hacking)<br>Web hacking fundamentals</td></tr>
+                <tr><td><b>Cyber defence introduction:</b><br>Cyber defence introduction<br>Threat and vulnerability management<br>Security operations and monitoring<br>Threat emulation<br>Incident Response and Forensics<br>Malware Analysis</td></tr>
+                <tr><td><b>Secuity Operations Centre:</b><br>Cyber defence frameworks<br>Cyber threat intelligence<br>Network security and traffic analysis<br>Endpoint security monitoring<br>Security information and event management<br>Digital forensics and incident response<br>Phising</td></tr>
+                <tr><td><b>Future:</b><br>Jr Penetration Tester<br>Red teaming<br>CompTIA pentest</td></tr>
+            </table>
+            <br>
+            <table style="width:400px;border-style:solid;border-color:darkblue">
+                <tr><th style="border-style:solid;border-color: blueviolet;"><h2><b>FreeCodeCamp</b></h2></th></tr>
+                <tr>
+                    <td>
+                        Javascript Algorithms and Data Structures JS: ES6, Regex, Debugging, Data structures, algorithm scripting, OOP, Functional Programming<br>
+                        Front End Development JS,CSS: Bootstrap, jquery, SASS, React, Redux<br>Data Visualisation JS<br>
+                        Relational Databases<br>Back End Development JS MongoDB<br>
+                        Quality Assurance JS<br>Scientific Computing PY<br>
+                        Data Analysis PY<br>Information Security PY JS<br>
+                        Machine Learning PY<br>Coding Interview Prep
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <table style="width:400px;border-style:solid;border-color:darkblue">
+                <tr><th style="border-style:solid;"><h2><b>Unity learning</b></h2></th></tr>
+                <tr>
+                    <td>
+                        Unity Essentials (13Hours)<br>
+                        Junior Programmer (46Hours): Scripting<br>Creative Core (43Hours):Shaders/Materials, Lighting,
+                        animation,VFX, Cameras, Post-Processing, Audio, UI/Menus, Prototyping<br>
+                        <b>FUTURE:</b> VR Development, Mobile AR Development<br>Extra: Importing/Exporting                    
+                    </td>
+                </tr>
+            </table>     
+            <br>
+            <table style="width:400px;border-style:solid;border-color:darkblue">
+                <tr><th style="border-style:solid;border-color: aqua;"><h2><b>Blender</b></h2></th></tr>
+                <tr>
+                    <td>
+                        Rigging: Weight Painting<br>Facial Shape Keys<br>
+                        Anime Shading: Shading, Materials, Normals, UV, Colours, Outlines<br>
+                        UV Mapping<br>Animation<br>Textures: Masking<br>
+                        Maps Non-Procedural: Bump/Normal, Diffuse/{Albedo/AO}, Specular, Rough/Gloss, Displacement, Transparent<br>
+                        Maps Procedural: Clouds, Noise, Rust/Voronoi<br>Drivers<br>&lt;See: ARTSTATION for ideas&gt;
+                    </td>
+                </tr>
+            </table>        
         </div>
-        <br>
-        <br>
-            ## Create famicons for all github sites ##
-            ## Learn Bootstrap 5 w3schools
-            ## Make website more accessible
-        </h3>  
-        <!--<div style="height:220px; overflow: hidden;"></div>-->
-        <table style="width:400px;border-style:solid;border-color:darkblue">
-            <tr><th style="border-style:solid;border-color:darkblue"><h2>TRYHACKME Learning</h2></th></tr>
-            <tr><td><b>Introduction to Cyber Security:</b><br>Intro to Offensive Security<br>Intro to Defensive Security</td></td></tr>
-            <tr><td><b>Pre-security:</b><br>Network Fundamentals<br>How the web works<br>
-            Linux fundamentals<br>Windows fundamentals</td></tr>
-            <tr><td><b>Web fundamentals:</b><br>Introduction to web hacking <b>* HERE</b></b><br>Burp suite (web hacking)<br>Web hacking fundamentals</td></tr>
-            <tr><td><b>Cyber defence introduction:</b><br>Cyber defence introduction<br>Threat and vulnerability management<br>Security operations and monitoring<br>Threat emulation<br>Incident Response and Forensics<br>Malware Analysis</td></tr>
-            <tr><td><b>Secuity Operations Centre:</b><br>Cyber defence frameworks<br>Cyber threat intelligence<br>Network security and traffic analysis<br>Endpoint security monitoring<br>Security information and event management<br>Digital forensics and incident response<br>Phising</td></tr>
-            <tr><td><b>Future:</b><br>Jr Penetration Tester<br>Red teaming<br>CompTIA pentest</td></tr>
-        </table>
-        <br>
-        <table style="width:400px;border-style:solid;border-color:darkblue">
-            <tr><th style="border-style:solid;border-color: blueviolet;"><h2><b>FreeCodeCamp</b></h2></th></tr>
-            <tr>
-                <td>
-                    Javascript Algorithms and Data Structures JS: ES6, Regex, Debugging, Data structures, algorithm scripting, OOP, Functional Programming<br>
-                    Front End Development JS,CSS: Bootstrap, jquery, SASS, React, Redux<br>Data Visualisation JS<br>
-                    Relational Databases<br>Back End Development JS MongoDB<br>
-                    Quality Assurance JS<br>Scientific Computing PY<br>
-                    Data Analysis PY<br>Information Security PY JS<br>
-                    Machine Learning PY<br>Coding Interview Prep
-                </td>
-            </tr>
-        </table>
-        <br>
-        <table style="width:400px;border-style:solid;border-color:darkblue">
-            <tr><th style="border-style:solid;"><h2><b>Unity learning</b></h2></th></tr>
-            <tr>
-                <td>
-                    Unity Essentials (13Hours)<br>
-                    Junior Programmer (46Hours): Scripting<br>Creative Core (43Hours):Shaders/Materials, Lighting,
-                    animation,VFX, Cameras, Post-Processing, Audio, UI/Menus, Prototyping<br>
-                    <b>FUTURE:</b> VR Development, Mobile AR Development<br>Extra: Importing/Exporting                    
-                </td>
-            </tr>
-        </table>     
-        <br>
-        <table style="width:400px;border-style:solid;border-color:darkblue">
-            <tr><th style="border-style:solid;border-color: aqua;"><h2><b>Blender</b></h2></th></tr>
-            <tr>
-                <td>
-                    Rigging: Weight Painting<br>Facial Shape Keys<br>
-                    Anime Shading: Shading, Materials, Normals, UV, Colours, Outlines<br>
-                    UV Mapping<br>Animation<br>Textures: Masking<br>
-                    Maps Non-Procedural: Bump/Normal, Diffuse/{Albedo/AO}, Specular, Rough/Gloss, Displacement, Transparent<br>
-                    Maps Procedural: Clouds, Noise, Rust/Voronoi<br>Drivers<br>&lt;See: ARTSTATION for ideas&gt;
-                </td>
-            </tr>
-        </table>        
     </body> 
     <script> 
         function bgChange(bg) { //changes background colour
         document.body.style.background = bg;
         }     
-        function startTime() { //runs javascript clock, with checktime below adding 0 to front of min and secs
-            const today = new Date();
-            let h = today.getHours();
-            let m = today.getMinutes();
-            let s = today.getSeconds();
-            m = checkTime(m);
-            s = checkTime(s);
-            document.getElementById("clock").innerHTML =  h + ":" + m + ":" + s;
-            setTimeout(startTime, 1000);
-        }
-        function checkTime(i) {
-        if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-        return i;
-        }
-        startTime(); /* Previously the Javascript clock was not working, despite being the same
-        as tutorials showed. Upon further trial and error and research, it was found that rather
-        than starting function in html, running the function in JS script worked properly. */
-        function showInput() { //clicking button copies text value to box
-                document.getElementById("display").innerHTML = document.getElementById("input").value;
-        }          
-        function showInputEnter(event) { //on enter button press, copies text value to box
-            if (event.key === "Enter") {
-                event.preventDefault();
-                document.getElementById("display").innerHTML = document.getElementById("input").value;
-            }                
-        }           
-        
+      
         document.getElementById("HTMLBoilerPlate").style.display="none";
 
         function HTMLBP() {
@@ -204,11 +178,11 @@ TODO:
 Add thumbnails for 6 JS projects to website.
 Create small table showing the 6 projects with links and rounded edges.
 Move background options to top right and customise colour choices for style, changing text colours to match.
-Create left margin to provide more space on the sides.
-Remove clock.
+Add references to new projects.
 Move other projects to seperate tab/openable table, including counter.
 Add nice curve to lower third of webpage.
 Add Cube somewhere in webpage, possibly as rotating gif/svg.
 Replace coding goals with list of completed coding learning paths, including logos if possible.
 Add diagram of future coding goals.
+Create famicons for all github websites.
 -->
