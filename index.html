@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>
-            Github Website            
-        </title>
+        <title>Github Website</title>
         <link rel="icon" type="image/x-icon" href="/BlueCubeGithubPhoto.ico" />
         <link rel="apple-touch-icon" sizes="64x64" href="/BlueCubeGithubPhoto.png" />        
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -13,30 +11,57 @@
     </head>
     <style>  /*mostly using inline style for main page currently*/       
     </style>
-    <body style="background:linear-gradient(teal,yellow);">  
-        <div class="ml-4 container">  
-            <h1 style="text-align:center"> Showcase website by Michael A</h1> <!--https://mickaub.github.io/-->        
-            <h2>Click on the squares below to change the background colour:</h2>        
-            <table style="width:400px;height:100px;border-style:solid;"> <!--table with elements that change background colour-->
-                <tr>
-                    <td onclick="bgChange(this.style.backgroundColor)"         
-                    style="background-color:Khaki">
-                    </td>
-                    <td onclick="bgChange(this.style.backgroundColor)" 
-                    style="background-color:PaleGreen">
-                    </td>
-                    <td onclick="bgChange(this.style.backgroundColor)"         
-                    style="background-color:Silver">
-                    </td>
-                    <td onclick="bgChange(this.style.backgroundImage)"         
-                    style="background-image:linear-gradient(teal,yellow)">
-                    </td>
-                </tr>
-            </table>
-            <hr>            
-            <h2>Vanilla JS/HTML Spoderman game</h2>
+    <body style="background:linear-gradient(teal,yellow);">            
+            <div id="top" class="row align-items-center pt-2">
+                <div class="col-3">
+                    <div class="text-center">
+                        <img src="BlueCube256.png" class="rounded-circle"alt="Blue Cube Logo" width="128" height="128">
+                    </div>                    
+                </div>
+                <div class="col-6">
+                    <h1 style="text-align:center"> Michael Aubrey's Portfolio Website</h1> <!--https://mickaub.github.io/-->       
+                </div>
+                <div class="col-3">
+                    <div class="col align-items-center">
+                        <h3 >Choose Background:</h3>  
+                    </div>                      
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td onclick="bgChange(this.style.backgroundColor)"         
+                                style="background-color:Khaki">
+                                </td>
+                                <td onclick="bgChange(this.style.backgroundColor)" 
+                                style="background-color:PaleGreen">
+                                </td>
+                                <td onclick="bgChange(this.style.backgroundColor)"         
+                                style="background-color:Silver">
+                                </td>
+                                <td onclick="bgChange(this.style.backgroundImage)"         
+                                style="background-image:linear-gradient(#CCC,yellow)">
+                                </td>
+                            </tr>
+                        </thead>
+                    </table>                    
+                </div>
+            </div>    
+            <hr>      
+            <div class="ml-4 container">     
+            <h2>Javascript Games</h2>
+            <h2>Spoderman game</h2>
             <p>See <a target="_blank" href="https://mickaub.github.io/SpodermanHTMLJSGame/">HERE</a> for a JS/HTML game starring Spoderman traversing his city.</p> 
-            <img src="/SpodermanThumbnail.png" alt="Spoderman Game Image" width="256" height="256">                 
+            <img src="SpodermanThumbnail.png" alt="Spoderman Game Image" width="256" height="256"> <!--Remove / in front of image path to show image on website-->    
+            <p>Click <a target="_blank" href="https://mickaub.github.io/Battleshipv1/">HERE</a>
+            for my version of the battleship game.</p>
+            <img src="BattleshipThumbnail.png" alt="Battleship Game Image" width="256" height="256">
+            <p>Click <a target="_blank" href=" https://mickaub.github.io/JSGameMinesweeper/">HERE</a> for my version of the MineSweeper game.</p>
+            <img src="MinesweeperThumbnail.png" alt="Minesweeper Game Image" width="256" height="256">
+            <p>Click <a target="_blank" href="https://mickaub.github.io/SpaceInvadersJSGame/">HERE</a> for my version of the Space Invaders game.</p>
+            <img src="SpaceInvadersThumbnail.png" alt="Space Invaders Game Image" width="256" height="256">
+            <p>Click <a target="_blank" href="https://mickaub.github.io/Solitaire/">HERE</a> for my version of Solitaire</p>
+            <img src="SolitaireThumbnail.png" alt="Solitaire Game Image" width="256" height="256">
+            <p>Click <a target="_blank" href="https://mickaub.github.io/PokemonJS/">HERE</a> for my version of pokemon.</p>     
+            <img src="PokemonThumbnail.png" alt="Pokemon Game Image" width="256" height="256">        
             <hr>
             <h2>ThreeJS 3D models/animation</h2>
             <p>See <a target="_blank" href="https://mickaub.github.io/ThreeJSBasic/">HERE</a>
@@ -49,17 +74,7 @@
             <h2>SVG Testing</h2>
             <p>See <a target="_blank" href="https://mickaub.github.io/SVG/">HERE</a>
             for an SVG Testing area with printout available.</p>
-            <hr>
-            <h2>Javascript Games</h2>
-            <p>Four games I will try to code in JS are: Battleships, Space Invaders, Minesweeper and Tetris.
-            <br>I have also coded a simplified version of Pokemon as well, to further improve my coding skills. 
-            </p>
-            <p>Click <a target="_blank" href="https://mickaub.github.io/Battleshipv1/">HERE</a>
-            for my version of the battleship game.</p>
-            <p>Click <a target="_blank" href=" https://mickaub.github.io/JSGameMinesweeper/">HERE</a> for my version of the MineSweeper game.</p>
-            <p>Click <a target="_blank" href="https://mickaub.github.io/SpaceInvadersJSGame/">HERE</a> for my version of the Space Invaders game.</p>
-            <p>Click <a target="_blank" href="https://mickaub.github.io/Solitaire/">HERE</a> for my version of Solitaire</p>
-            <p>Click <a target="_blank" href="https://mickaub.github.io/PokemonJS/">HERE</a> for my version of pokemon.
+            <hr>            
             <div>
             <hr>
             <p>
@@ -176,13 +191,11 @@
 <!--
 Website update: September 2023
 TODO:
-Add thumbnails for 6 JS projects to website.
 Create small table showing the 6 projects with links and rounded edges.
-Move background options to top right and customise colour choices for style, changing text colours to match.
+Customise colour choices for style, changing text colours to match.
 Add references to new projects.
 Move other projects to seperate tab/openable table, including counter.
 Add nice curve to lower third of webpage.
-Add Cube somewhere in webpage, possibly as rotating gif/svg.
 Replace coding goals with list of completed coding learning paths, including logos if possible.
 Add diagram of future coding goals.
 Create famicons for all github websites.

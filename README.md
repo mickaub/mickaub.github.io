@@ -25,3 +25,9 @@ Removed Clock, and also cleared some unused Javascript code.
 Began converting to Bootstrap.
 Saved images of website before Bootstrap.
 Created left margin for entire page via container.
+
+5 Sep
+Added 6 thumbnail images for Javascript games.
+Added cube logo to top of webpage.
+Moved background options to top right.
+Created top row with cube icon, title and background options together.
