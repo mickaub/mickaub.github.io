@@ -31,3 +31,5 @@ Added 6 thumbnail images for Javascript games.
 Added cube logo to top of webpage.
 Moved background options to top right.
 Created top row with cube icon, title and background options together.
+
+Customise colour choices for style.

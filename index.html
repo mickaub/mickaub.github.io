@@ -9,9 +9,9 @@
         <meta charset="UFT-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />        
     </head>
-    <style>  /*mostly using inline style for main page currently*/       
+    <style>  /*mostly using inline style for main page currently*/        
     </style>
-    <body style="background:linear-gradient(teal,yellow);">            
+    <body style="background:linear-gradient(rgb(193, 125, 198),rgb(241, 241, 47));">            
             <div id="top" class="row align-items-center pt-2">
                 <div class="col-3">
                     <div class="text-center">
@@ -21,28 +21,34 @@
                 <div class="col-6">
                     <h1 style="text-align:center"> Michael Aubrey's Portfolio Website</h1> <!--https://mickaub.github.io/-->       
                 </div>
-                <div class="col-3">
+                <div class="col-3">                   
                     <div class="col align-items-center">
-                        <h3 >Choose Background:</h3>  
-                    </div>                      
-                    <table class="table">
+                        <h3>Choose Background:</h3>  
+                    </div>                  
+                    <div class="row">
+                    <div class="col-1"></div> 
+                    <div class="col-10">                
+                    <table class="table table-bordered">
                         <tbody>
                             <tr>
-                                <td onclick="bgChange(this.style.backgroundColor)"         
-                                style="background-color:Khaki">
+                                <td onclick="bgChange(this.style.backgroundImage)"         
+                                style="background-image: linear-gradient(rgb(193, 125, 198),rgb(241, 241, 47));">
                                 </td>
-                                <td onclick="bgChange(this.style.backgroundColor)" 
-                                style="background-color:PaleGreen">
-                                </td>
-                                <td onclick="bgChange(this.style.backgroundColor)"         
-                                style="background-color:Silver">
+                                <td onclick="bgChange(this.style.backgroundImage)" 
+                                style="background-image:linear-gradient(rgb(97, 187, 58),rgb(132, 235, 255));">
                                 </td>
                                 <td onclick="bgChange(this.style.backgroundImage)"         
-                                style="background-image:linear-gradient(#CCC,yellow)">
+                                style="background-image:linear-gradient(rgb(213, 207, 207),rgb(209, 43, 126));">
+                                </td>
+                                <td onclick="bgChange(this.style.backgroundImage)"         
+                                style="background-image:linear-gradient(rgb(255, 197, 24),rgb(55, 90, 207))">
                                 </td>
                             </tr>
-                        </thead>
-                    </table>                    
+                        </tbody>
+                    </table>         
+                    </div>  
+                    <div class="col-1"></div>    
+                </div>        
                 </div>
             </div>    
             <hr>      
@@ -192,11 +198,10 @@
 Website update: September 2023
 TODO:
 Create small table showing the 6 projects with links and rounded edges.
-Customise colour choices for style, changing text colours to match.
 Add references to new projects.
 Move other projects to seperate tab/openable table, including counter.
-Add nice curve to lower third of webpage.
 Replace coding goals with list of completed coding learning paths, including logos if possible.
 Add diagram of future coding goals.
 Create famicons for all github websites.
+Remove extra space on right side.
 -->
