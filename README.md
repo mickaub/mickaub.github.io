@@ -33,3 +33,7 @@ Moved background options to top right.
 Created top row with cube icon, title and background options together.
 
 Customise colour choices for style.
+
+6 September
+Created grid showing the 6 Javascript Game projects with links, and rounded edges.
+Moved other projects to seperate section, including counter.

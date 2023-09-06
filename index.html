@@ -11,84 +11,142 @@
     </head>
     <style>  /*mostly using inline style for main page currently*/        
     </style>
-    <body style="background:linear-gradient(rgb(193, 125, 198),rgb(241, 241, 47));">            
-            <div id="top" class="row align-items-center pt-2">
+    <body style="background:linear-gradient(rgb(193, 125, 198),rgb(241, 241, 47));">    <!--Top row is causing right overflow-->        
+          <!--  <div id="top" class="row align-items-center pt-2">
                 <div class="col-3">
                     <div class="text-center">
                         <img src="BlueCube256.png" class="rounded-circle"alt="Blue Cube Logo" width="128" height="128">
                     </div>                    
                 </div>
                 <div class="col-6">
-                    <h1 style="text-align:center"> Michael Aubrey's Portfolio Website</h1> <!--https://mickaub.github.io/-->       
+                    <h1 style="text-align:center"> Michael Aubrey's Portfolio Website</h1> --><!--https://mickaub.github.io/--><!--       
                 </div>
-                <div class="col-3">                   
+                <div class="col-3">                  
                     <div class="col align-items-center">
                         <h3>Choose Background:</h3>  
                     </div>                  
                     <div class="row">
-                    <div class="col-1"></div> 
-                    <div class="col-10">                
-                    <table class="table table-bordered">
-                        <tbody>
-                            <tr>
-                                <td onclick="bgChange(this.style.backgroundImage)"         
-                                style="background-image: linear-gradient(rgb(193, 125, 198),rgb(241, 241, 47));">
-                                </td>
-                                <td onclick="bgChange(this.style.backgroundImage)" 
-                                style="background-image:linear-gradient(rgb(97, 187, 58),rgb(132, 235, 255));">
-                                </td>
-                                <td onclick="bgChange(this.style.backgroundImage)"         
-                                style="background-image:linear-gradient(rgb(213, 207, 207),rgb(209, 43, 126));">
-                                </td>
-                                <td onclick="bgChange(this.style.backgroundImage)"         
-                                style="background-image:linear-gradient(rgb(255, 197, 24),rgb(55, 90, 207))">
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>         
-                    </div>  
-                    <div class="col-1"></div>    
-                </div>        
+                        <div class="col-1"></div> 
+                        <div class="col-10">                
+                            <table class="table table-bordered">
+                                <tbody>
+                                    <tr>
+                                        <td onclick="bgChange(this.style.backgroundImage)"         
+                                        style="background-image: linear-gradient(rgb(193, 125, 198),rgb(241, 241, 47));">
+                                        </td>
+                                        <td onclick="bgChange(this.style.backgroundImage)" 
+                                        style="background-image:linear-gradient(rgb(97, 187, 58),rgb(132, 235, 255));">
+                                        </td>
+                                        <td onclick="bgChange(this.style.backgroundImage)"         
+                                        style="background-image:linear-gradient(rgb(213, 207, 207),rgb(209, 43, 126));">
+                                        </td>
+                                        <td onclick="bgChange(this.style.backgroundImage)"         
+                                        style="background-image:linear-gradient(rgb(255, 197, 24),rgb(55, 90, 207))">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>         
+                        </div>  
+                        <div class="col-1"></div>    
+                    </div>       
                 </div>
-            </div>    
-            <hr>      
-            <div class="ml-4 container">     
-            <h2>Javascript Games</h2>
-            <h2>Spoderman game</h2>
-            <p>See <a target="_blank" href="https://mickaub.github.io/SpodermanHTMLJSGame/">HERE</a> for a JS/HTML game starring Spoderman traversing his city.</p> 
-            <img src="SpodermanThumbnail.png" alt="Spoderman Game Image" width="256" height="256"> <!--Remove / in front of image path to show image on website-->    
-            <p>Click <a target="_blank" href="https://mickaub.github.io/Battleshipv1/">HERE</a>
-            for my version of the battleship game.</p>
-            <img src="BattleshipThumbnail.png" alt="Battleship Game Image" width="256" height="256">
-            <p>Click <a target="_blank" href=" https://mickaub.github.io/JSGameMinesweeper/">HERE</a> for my version of the MineSweeper game.</p>
-            <img src="MinesweeperThumbnail.png" alt="Minesweeper Game Image" width="256" height="256">
-            <p>Click <a target="_blank" href="https://mickaub.github.io/SpaceInvadersJSGame/">HERE</a> for my version of the Space Invaders game.</p>
-            <img src="SpaceInvadersThumbnail.png" alt="Space Invaders Game Image" width="256" height="256">
-            <p>Click <a target="_blank" href="https://mickaub.github.io/Solitaire/">HERE</a> for my version of Solitaire</p>
-            <img src="SolitaireThumbnail.png" alt="Solitaire Game Image" width="256" height="256">
-            <p>Click <a target="_blank" href="https://mickaub.github.io/PokemonJS/">HERE</a> for my version of pokemon.</p>     
-            <img src="PokemonThumbnail.png" alt="Pokemon Game Image" width="256" height="256">        
+            </div>  
+                -->  
+            <hr>    
+            <div class="ml-4 mb-4 container">     <!--Start container-->    
+                <h2 style="text-align: center; font-weight: 700;" >My Javascript Games</h2>
+                <div class="row">
+                    <div class="col">
+                        <h2 style="text-align: center;">Spoderman game</h2>
+                    </div>
+                    <div class="col">
+                        <h2 style="text-align: center;">Battleship game</h2>
+                    </div>
+                    <div class="col">
+                        <h2 style="text-align: center;">Minesweeper game</h2>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col">
+                        <div class="text-center">
+                            <img class="rounded" src="SpodermanThumbnail.png" alt="Spoderman Game Image" width="256" height="256"> <!--Remove / in front of image path to show image on website--> 
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-center">
+                            <img class="rounded" src="BattleshipThumbnail.png" alt="Battleship Game Image" width="256" height="256">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-center">
+                            <img class="rounded" src="MinesweeperThumbnail.png" alt="Minesweeper Game Image" width="256" height="256">
+                        </div>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col pt-2">
+                        <p style="text-align: center;">Click <a target="_blank" href="https://mickaub.github.io/SpodermanHTMLJSGame/">HERE</a> to play my version of Spiderman.</p> 
+                    </div>
+                    <div class="col pt-2">
+                        <p style="text-align: center;">Click <a target="_blank" href="https://mickaub.github.io/Battleshipv1/">HERE</a> for my version of battleship.</p>
+                    </div>
+                    <div class="col pt-2">
+                        <p style="text-align: center;">Click <a target="_blank" href=" https://mickaub.github.io/JSGameMinesweeper/">HERE</a> for my version of MineSweeper.</p>
+                    </div>  
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h2 style="text-align: center;">Space Invaders game</h2>
+                    </div>
+                    <div class="col">
+                        <h2 style="text-align: center;">Solitaire game</h2>
+                    </div>
+                    <div class="col">
+                        <h2 style="text-align: center;">Simple RPG game</h2>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col">
+                        <div class="text-center">
+                            <img class="rounded" src="SpaceInvadersThumbnail.png" alt="Space Invaders Game Image" width="256" height="256">
+                        </div>                       
+                    </div>
+                    <div class="col">
+                        <div class="text-center">
+                            <img class="rounded" src="SolitaireThumbnail.png" alt="Solitaire Game Image" width="256" height="256">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-center">
+                            <img class="rounded" src="PokemonThumbnail.png" alt="Pokemon Game Image" width="256" height="256">   
+                        </div>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col pt-2">                        
+                        <p style="text-align: center;">Click <a target="_blank" href="https://mickaub.github.io/SpaceInvadersJSGame/">HERE</a> for my version of the Space Invaders game.</p>
+                    </div>
+                    <div class="col pt-2">
+                        <p style="text-align: center;">Click <a target="_blank" href="https://mickaub.github.io/Solitaire/">HERE</a> for my version of Solitaire</p>        
+                    </div>
+                    <div class="col pt-2">
+                        <p style="text-align: center;">Click <a target="_blank" href="https://mickaub.github.io/PokemonJS/">HERE</a> for my version of pokemon.</p> 
+                    </div>                    
+                </div>                
             <hr>
+            <h2 style="text-align: center; font-weight: 700;" >Other Projects</h2>
             <h2>ThreeJS 3D models/animation</h2>
             <p>See <a target="_blank" href="https://mickaub.github.io/ThreeJSBasic/">HERE</a>
-            for various ThreeJS projects/animations</p>
-            <hr>
+            for various ThreeJS projects/animations</p>            
             <h2>ThreeJS Haloo game</h2>
-            <p>See <a target="_blank" href="https://mickaub.github.io/Haloo/">HERE</a> for a fun basic Halo like game that I have developed in THREEJS. Preview shown below:</p>  
-            <img src="https://drive.google.com/uc?export=view&id=1YL3Lu7fqR8UN-RCo3R6hL-vX0wPV5pPG" alt="Haloo gameplay image" width="256" height="256"> <!--edit drive link to use https://drive.google.com/uc?export=view&id= before ID of image file-->
-            <hr>
+            <p>See <a target="_blank" href="https://mickaub.github.io/Haloo/">HERE</a> for a 3D Halo like game that I have developed in THREEJS.</p>  
+            <img class="rounded" src="https://drive.google.com/uc?export=view&id=1YL3Lu7fqR8UN-RCo3R6hL-vX0wPV5pPG" alt="Haloo gameplay image" width="256" height="256"> <!--edit drive link to use https://drive.google.com/uc?export=view&id= before ID of image file-->            
             <h2>SVG Testing</h2>
             <p>See <a target="_blank" href="https://mickaub.github.io/SVG/">HERE</a>
             for an SVG Testing area with printout available.</p>
-            <hr>            
-            <div>
+            <h2>Counter date calculator</h2>
+            <p>Counter based on hard coded date ranges is <a target="_blank" href="https://mickaub.github.io/counter/">HERE</a></p>
             <hr>
             <p>
                 <img src="https://imgs.search.brave.com/24LyBE6pTlr5JSY9F5tkgUz4HUHAbIXELvt5cW3BEXE/rs:fit:1080:1080:1/g:ce/aHR0cHM6Ly8yc3hj/Lm9yZy9Qb3J0YWxz/LzAvYWRhbS9Db250/ZW50LzRJcUJqeDNw/WEVDN2E3LWZWWDJH/QlEvSW1hZ2UvZ2l0/aHViLWxvZ28ucG5n/P3c9MTA4MCZzY2Fs/ZT1ib3RoJnF1YWxp/dHk9NTA" style="width:16px;" alt="The github logo.">
-                This website is hosted on Github, a subsidiary of Microsoft. To see the code behind this website, visit <a target="_blank" href="https://github.com/mickaub/mickaub.github.io">here</a>.
-            </p>
-            </div> 
-            <p>Counter is <a target="_blank" href="https://mickaub.github.io/counter/">HERE</a></p>
+                This website is hosted on Github, a subsidiary of Microsoft. To see the code behind this website, visit <a target="_blank" href="https://github.com/mickaub/mickaub.github.io">Here</a>.
+            </p> 
             <button onclick="HTMLBP()">Show HTML boilerplate</button>
             <div id="HTMLBoilerPlate">
                 <p>&lt;!DOCTYPE html&gt;<br>&lt;html lang="en"&gt;<br>&lt;head&gt;<br>&lt;title&gt;<br>&lt;/title&gt;<br>
@@ -106,63 +164,9 @@
                 &lt;/head&gt;<br>&lt;style&gt;<br>&lt;/style&gt;<br>&lt;body&gt;<br>&lt;div id="TestDisplay"&gt;<br>&lt;/div&gt;<br>&lt;/body&gt;<br>
                 &lt;script&gt;<br>let text = new String;<br>text = "hello" + "&lt;br&gt;" + "world";<br>document.getElementById("TestDisplay").innerHTML = text;<br>&lt;/script&gt;<br>&lt;/html&gt;
                 </p>
-            </div>
-            <br>
-            <br>
-                ## Create famicons for all github sites ##            
-                ## Make website more accessible
-            </h3>  
-            <!--<div style="height:220px; overflow: hidden;"></div>-->
-            <table style="width:400px;border-style:solid;border-color:darkblue">
-                <tr><th style="border-style:solid;border-color:darkblue"><h2>TRYHACKME Learning</h2></th></tr>
-                <tr><td><b>Introduction to Cyber Security:</b><br>Intro to Offensive Security<br>Intro to Defensive Security</td></td></tr>
-                <tr><td><b>Pre-security:</b><br>Network Fundamentals<br>How the web works<br>
-                Linux fundamentals<br>Windows fundamentals</td></tr>
-                <tr><td><b>Web fundamentals:</b><br>Introduction to web hacking <b>* HERE</b></b><br>Burp suite (web hacking)<br>Web hacking fundamentals</td></tr>
-                <tr><td><b>Cyber defence introduction:</b><br>Cyber defence introduction<br>Threat and vulnerability management<br>Security operations and monitoring<br>Threat emulation<br>Incident Response and Forensics<br>Malware Analysis</td></tr>
-                <tr><td><b>Secuity Operations Centre:</b><br>Cyber defence frameworks<br>Cyber threat intelligence<br>Network security and traffic analysis<br>Endpoint security monitoring<br>Security information and event management<br>Digital forensics and incident response<br>Phising</td></tr>
-                <tr><td><b>Future:</b><br>Jr Penetration Tester<br>Red teaming<br>CompTIA pentest</td></tr>
-            </table>
-            <br>
-            <table style="width:400px;border-style:solid;border-color:darkblue">
-                <tr><th style="border-style:solid;border-color: blueviolet;"><h2><b>FreeCodeCamp</b></h2></th></tr>
-                <tr>
-                    <td>
-                        Javascript Algorithms and Data Structures JS: ES6, Regex, Debugging, Data structures, algorithm scripting, OOP, Functional Programming<br>
-                        Front End Development JS,CSS: Bootstrap, jquery, SASS, React, Redux<br>Data Visualisation JS<br>
-                        Relational Databases<br>Back End Development JS MongoDB<br>
-                        Quality Assurance JS<br>Scientific Computing PY<br>
-                        Data Analysis PY<br>Information Security PY JS<br>
-                        Machine Learning PY<br>Coding Interview Prep
-                    </td>
-                </tr>
-            </table>
-            <br>
-            <table style="width:400px;border-style:solid;border-color:darkblue">
-                <tr><th style="border-style:solid;"><h2><b>Unity learning</b></h2></th></tr>
-                <tr>
-                    <td>
-                        Unity Essentials (13Hours)<br>
-                        Junior Programmer (46Hours): Scripting<br>Creative Core (43Hours):Shaders/Materials, Lighting,
-                        animation,VFX, Cameras, Post-Processing, Audio, UI/Menus, Prototyping<br>
-                        <b>FUTURE:</b> VR Development, Mobile AR Development<br>Extra: Importing/Exporting                    
-                    </td>
-                </tr>
-            </table>     
-            <br>
-            <table style="width:400px;border-style:solid;border-color:darkblue">
-                <tr><th style="border-style:solid;border-color: aqua;"><h2><b>Blender</b></h2></th></tr>
-                <tr>
-                    <td>
-                        Rigging: Weight Painting<br>Facial Shape Keys<br>
-                        Anime Shading: Shading, Materials, Normals, UV, Colours, Outlines<br>
-                        UV Mapping<br>Animation<br>Textures: Masking<br>
-                        Maps Non-Procedural: Bump/Normal, Diffuse/{Albedo/AO}, Specular, Rough/Gloss, Displacement, Transparent<br>
-                        Maps Procedural: Clouds, Noise, Rust/Voronoi<br>Drivers<br>&lt;See: ARTSTATION for ideas&gt;
-                    </td>
-                </tr>
-            </table>        
-        </div>
+            </div>            
+            <!--<div style="height:220px; overflow: hidden;"></div>-->                 
+        </div> <!--end of container-->
     </body> 
     <script> 
         function bgChange(bg) { //changes background colour
@@ -197,11 +201,10 @@
 <!--
 Website update: September 2023
 TODO:
-Create small table showing the 6 projects with links and rounded edges.
 Add references to new projects.
-Move other projects to seperate tab/openable table, including counter.
 Replace coding goals with list of completed coding learning paths, including logos if possible.
 Add diagram of future coding goals.
 Create famicons for all github websites.
 Remove extra space on right side.
+Make website more accessible.
 -->
