@@ -39,3 +39,4 @@ Created grid showing the 6 Javascript Game projects with links, and rounded edge
 Moved other projects to seperate section, including counter.
 
 Added references to new projects.
+Fixed right margin issue.
