@@ -12,23 +12,26 @@
     <style>  /*mostly using inline style for main page currently*/        
     </style>
     <body style="background:linear-gradient(rgb(193, 125, 198),rgb(241, 241, 47));"> 
-        <div class="ml-4 mb-4 mt-4 container">     <!--Start container-->   
+        <div class="ml-4 mb-4 mt-4 container-fluid">     <!--Start container-->   
             <div class="row">
                 <div class="col-3">
                     <div class="text-center">
-                        <img src="BlueCube256.png" class="rounded-circle"alt="Blue Cube Logo" width="128" height="128">
+                        <img src="BlueCube256.png" class="rounded-circle img-fluid"alt="Blue Cube Logo" width="128" height="128">
                     </div>                    
                 </div>
                 <div class="col-6">
-                    <h1 style="text-align:center"> Michael Aubrey's Portfolio Website</h1> <!--https://mickaub.github.io/-->      
+                    <div class="text-center">
+                        <h1 style="font-size: 4vw;"> Michael Aubrey's <br> Portfolio Website</h1> <!--https://mickaub.github.io/-->      
+                    </div>
+                   
                 </div>
                 <div class="col-3">                  
                     <div class="col">
-                        <h3 class="text-center">Choose Background:</h3>  
+                        <h3 class="text-center" style="font-size: 2vw;">Choose Background:</h3>  
                     </div>                  
                     <div class="row">
-                        <div class="col-1"></div> 
-                        <div class="col-10">                
+                       <!-- <div class="col-1"></div> -->
+                        <div class="text-center">                
                             <table class="table table-bordered">
                                 <tbody>
                                     <tr>
@@ -48,7 +51,7 @@
                                 </tbody>
                             </table>         
                         </div>  
-                        <div class="col-1"></div>    
+                        <!--<div class="col-1"></div>   --> 
                     </div>       
                 </div>
             </div>
@@ -133,11 +136,27 @@
             <ul class="list-group">
                 <li class="list-group-item text-center">Dancing robot app</li>
                 <li class="list-group-item text-center">Philipino language app (with Emojis and JS keys)</li>
-                <li class="list-group-item text-center">Garagebad/sound app</li>
+                <li class="list-group-item text-center">Garageband/sound app</li>
                 <li class="list-group-item text-center">Flight simulator app</li>
                 <li class="list-group-item text-center">Chao garden app</li>
                 <li class="list-group-item text-center">MBTI database app</li>
                 <li class="list-group-item text-center">Cable TV web app</li>
+            </ul>
+            <hr>
+            <h2 style="text-align: center; font-weight: 700;">Completed Learning Paths</h2>
+            <ul class="list-group">                
+                <li class="list-group-item text-center">FreeCodeCamp: Responsive Web Design: HTML and CSS</li>
+                <li class="list-group-item text-center">FreeCodeCamp: Javascript Algorithms and Data Structures</li>
+                <li class="list-group-item text-center">FreeCodeCamp: Scientific Computing with Python</li>
+                <li class="list-group-item text-center">Microsoft Learn: Getting Started with C#</li>                
+            </ul>
+            <hr>
+            <h2 style="text-align: center; font-weight: 700;">Future Learning Paths</h2>
+            <ul class="list-group">                
+                <li class="list-group-item text-center">Learn Swift to create native iOS apps</li>
+                <li class="list-group-item text-center">Learn Kotlin to create native Android apps</li>
+                <li class="list-group-item text-center">Learn Unity Game Development to produce games across platforms.</li>
+                <li class="list-group-item text-center">Learn how to make websites more accesible.</li>        
             </ul>
             <hr>
             <h2 style="text-align: center; font-weight: 700;" >Other Projects</h2>
@@ -211,8 +230,9 @@
 <!--
 Website update: September 2023
 TODO:
-Replace coding goals with list of completed coding learning paths, including logos if possible.
-Add diagram of future coding goals.
 Create famicons for all github websites.
 Make website more accessible.
+Make all images responsive.
+Align top 3 images with columns of same game.
+Fix right margin issue again.
 -->

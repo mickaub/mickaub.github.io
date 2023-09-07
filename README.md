@@ -40,3 +40,8 @@ Moved other projects to seperate section, including counter.
 
 Added references to new projects.
 Fixed right margin issue.
+
+7 September
+Replaced coding goals with list of completed coding learning paths.
+Added future learning goals.
+Began making images and fonts more responsive.
