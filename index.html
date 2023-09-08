@@ -9,127 +9,113 @@
         <meta charset="UFT-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />        
     </head>
-    <style>  /*mostly using inline style for main page currently*/        
+    <style>  /*mostly using inline style for main page currently*/      
+    .max-size
+    {
+        max-width: 256px;
+    }  
     </style>
     <body style="background:linear-gradient(rgb(193, 125, 198),rgb(241, 241, 47));"> 
-        <div class="ml-4 mb-4 mt-4 container-fluid">     <!--Start container-->   
+        <div class="mb-4 mt-4 container-fluid">     <!--Start container-->   
             <div class="row">
-                <div class="col-3">
+                <div class="col">
                     <div class="text-center">
                         <img src="BlueCube256.png" class="rounded-circle img-fluid"alt="Blue Cube Logo" width="128" height="128">
                     </div>                    
                 </div>
                 <div class="col-6">
                     <div class="text-center">
-                        <h1 style="font-size: 4vw;"> Michael Aubrey's <br> Portfolio Website</h1> <!--https://mickaub.github.io/-->      
-                    </div>
-                   
+                        <h1 style="font-size: 4vw;"> Michael Aubrey's <br> Portfolio Website</h1>  <!--https://mickaub.github.io/-->      
+                    </div>                   
                 </div>
-                <div class="col-3">                  
+                <div class="col">              
                     <div class="col">
                         <h3 class="text-center" style="font-size: 2vw;">Choose Background:</h3>  
                     </div>                  
-                    <div class="row">
-                       <!-- <div class="col-1"></div> -->
-                        <div class="text-center">                
+                    <div class="row justify-content-center">                         
+                        <div class="col-auto w-100 table-responsive">               
                             <table class="table table-bordered">
                                 <tbody>
-                                    <tr>
+                                    <tr class="d-flex">
                                         <td onclick="bgChange(this.style.backgroundImage)"         
-                                        style="background-image: linear-gradient(rgb(193, 125, 198),rgb(241, 241, 47));">
+                                        style="background-image: linear-gradient(rgb(193, 125, 198),rgb(241, 241, 47));" class="w-25">
                                         </td>
                                         <td onclick="bgChange(this.style.backgroundImage)" 
-                                        style="background-image:linear-gradient(rgb(88, 152, 60),rgb(132, 235, 255));">
+                                        style="background-image:linear-gradient(rgb(88, 152, 60),rgb(132, 235, 255));" class="w-25">
                                         </td>
                                         <td onclick="bgChange(this.style.backgroundImage)"         
-                                        style="background-image:linear-gradient(rgb(213, 207, 207),rgb(209, 43, 126));">
+                                        style="background-image:linear-gradient(rgb(213, 207, 207),rgb(209, 43, 126));" class="w-25">
                                         </td>
                                         <td onclick="bgChange(this.style.backgroundImage)"         
-                                        style="background-image:linear-gradient(rgb(255, 200, 30),rgb(159, 176, 233))">
+                                        style="background-image:linear-gradient(rgb(255, 200, 30),rgb(159, 176, 233))" class="w-25">
                                         </td>
                                     </tr>
                                 </tbody>
                             </table>         
-                        </div>  
-                        <!--<div class="col-1"></div>   --> 
-                    </div>       
-                </div>
-            </div>
+                        </div>                        
+                    </div>      
+                </div>  
+            </div> 
             <hr> 
             <h2 style="text-align: center; font-weight: 700;" >My Javascript Games</h2>
             <div class="row">
                 <div class="col">
                     <h2 style="text-align: center;">Spoderman game</h2>
+                    <div class="text-center">
+                        <img class="rounded img-fluid max-size" src="SpodermanThumbnail.png" alt="Spoderman Game Image" > <!--Remove / in front of image path to show image on website--> 
+                    </div>
+                    <div class="col pt-2">
+                        <p style="text-align: center;">Click <a target="_blank" href="https://mickaub.github.io/SpodermanHTMLJSGame/">HERE</a> to play my version of Spiderman.</p> 
+                    </div>
                 </div>
                 <div class="col">
                     <h2 style="text-align: center;">Battleship game</h2>
+                    <div class="text-center">
+                        <img class="rounded img-fluid max-size" src="BattleshipThumbnail.png" alt="Battleship Game Image" >
+                    </div>
+                    <div class="col pt-2">
+                        <p style="text-align: center;">Click <a target="_blank" href="https://mickaub.github.io/Battleshipv1/">HERE</a> for my version of battleship.</p>
+                    </div>
                 </div>
                 <div class="col">
                     <h2 style="text-align: center;">Minesweeper game</h2>
-                </div>
-                <div class="w-100"></div>
-                <div class="col">
                     <div class="text-center">
-                        <img class="rounded" src="SpodermanThumbnail.png" alt="Spoderman Game Image" width="256" height="256"> <!--Remove / in front of image path to show image on website--> 
+                        <img class="rounded img-fluid max-size" src="MinesweeperThumbnail.png" alt="Minesweeper Game Image" >
                     </div>
-                </div>
-                <div class="col">
-                    <div class="text-center">
-                        <img class="rounded" src="BattleshipThumbnail.png" alt="Battleship Game Image" width="256" height="256">
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="text-center">
-                        <img class="rounded" src="MinesweeperThumbnail.png" alt="Minesweeper Game Image" width="256" height="256">
-                    </div>
-                </div>
-                <div class="w-100"></div>
-                <div class="col pt-2">
-                    <p style="text-align: center;">Click <a target="_blank" href="https://mickaub.github.io/SpodermanHTMLJSGame/">HERE</a> to play my version of Spiderman.</p> 
-                </div>
-                <div class="col pt-2">
-                    <p style="text-align: center;">Click <a target="_blank" href="https://mickaub.github.io/Battleshipv1/">HERE</a> for my version of battleship.</p>
-                </div>
-                <div class="col pt-2">
-                    <p style="text-align: center;">Click <a target="_blank" href=" https://mickaub.github.io/JSGameMinesweeper/">HERE</a> for my version of MineSweeper.</p>
-                </div>  
+                    <div class="col pt-2">
+                        <p style="text-align: center;">Click <a target="_blank" href=" https://mickaub.github.io/JSGameMinesweeper/">HERE</a> for my version of MineSweeper.</p>
+                    </div>  
+                </div>                
             </div>
+            <div class="w-100"></div>
             <div class="row">
                 <div class="col">
                     <h2 style="text-align: center;">Space Invaders game</h2>
+                    <div class="text-center">
+                        <img class="rounded img-fluid max-size" src="SpaceInvadersThumbnail.png" alt="Space Invaders Game Image" width="256" height="256">
+                    </div>  
+                    <div class="col pt-2">                        
+                        <p style="text-align: center;">Click <a target="_blank" href="https://mickaub.github.io/SpaceInvadersJSGame/">HERE</a> for my version of the Space Invaders game.</p>
+                    </div>
                 </div>
                 <div class="col">
                     <h2 style="text-align: center;">Solitaire game</h2>
-                </div>
-                <div class="col">
-                    <h2 style="text-align: center;">Simple RPG game</h2>
-                </div>
-                <div class="w-100"></div>
-                <div class="col">
                     <div class="text-center">
-                        <img class="rounded" src="SpaceInvadersThumbnail.png" alt="Space Invaders Game Image" width="256" height="256">
-                    </div>                       
-                </div>
-                <div class="col">
-                    <div class="text-center">
-                        <img class="rounded" src="SolitaireThumbnail.png" alt="Solitaire Game Image" width="256" height="256">
+                        <img class="rounded img-fluid max-size" src="SolitaireThumbnail.png" alt="Solitaire Game Image" width="256" height="256">
+                    </div>
+                    <div class="col pt-2">
+                        <p style="text-align: center;">Click <a target="_blank" href="https://mickaub.github.io/Solitaire/">HERE</a> for my version of Solitaire</p>        
                     </div>
                 </div>
                 <div class="col">
+                    <h2 style="text-align: center;">Pokemon game</h2>
                     <div class="text-center">
-                        <img class="rounded" src="PokemonThumbnail.png" alt="Pokemon Game Image" width="256" height="256">   
+                        <img class="rounded img-fluid max-size" src="PokemonThumbnail.png" alt="Pokemon Game Image" width="256" height="256">   
                     </div>
-                </div>
-                <div class="w-100"></div>
-                <div class="col pt-2">                        
-                    <p style="text-align: center;">Click <a target="_blank" href="https://mickaub.github.io/SpaceInvadersJSGame/">HERE</a> for my version of the Space Invaders game.</p>
-                </div>
-                <div class="col pt-2">
-                    <p style="text-align: center;">Click <a target="_blank" href="https://mickaub.github.io/Solitaire/">HERE</a> for my version of Solitaire</p>        
-                </div>
-                <div class="col pt-2">
-                    <p style="text-align: center;">Click <a target="_blank" href="https://mickaub.github.io/PokemonJS/">HERE</a> for my version of pokemon.</p> 
-                </div>                    
+                    <div class="col pt-2">
+                        <p style="text-align: center;">Click <a target="_blank" href="https://mickaub.github.io/PokemonJS/">HERE</a> for my version of pokemon.</p> 
+                    </div> 
+                </div>                
             </div>
             <hr>
             <h2 style="text-align: center; font-weight: 700;" >Upcoming Projects</h2>
@@ -230,9 +216,6 @@
 <!--
 Website update: September 2023
 TODO:
-Create famicons for all github websites.
+Create famicons for other projects.
 Make website more accessible.
-Make all images responsive.
-Align top 3 images with columns of same game.
-Fix right margin issue again.
 -->

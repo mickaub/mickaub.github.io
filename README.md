@@ -45,3 +45,10 @@ Fixed right margin issue.
 Replaced coding goals with list of completed coding learning paths.
 Added future learning goals.
 Began making images and fonts more responsive.
+
+8 September
+Created website icons for all 6 javascript games and added them to each respective project website.
+Made all main images responsive.
+Aligned all javascript game images with their respective headings and captions.
+Fixed right margin again.
+Fixed scaling issue of background choice table.
