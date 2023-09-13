@@ -52,3 +52,6 @@ Made all main images responsive.
 Aligned all javascript game images with their respective headings and captions.
 Fixed right margin again.
 Fixed scaling issue of background choice table.
+
+13 September
+Changed RPG name to be more generic.
