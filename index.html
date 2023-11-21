@@ -181,7 +181,13 @@
                 &lt;script&gt;<br>let text = new String;<br>text = "hello" + "&lt;br&gt;" + "world";<br>document.getElementById("TestDisplay").innerHTML = text;<br>&lt;/script&gt;<br>&lt;/html&gt;
                 </p>
             </div>   
-            <br>                            
+            <br> <!--&#123; for {, &#125; for }, &#40; for (, &#41 for )-->
+            <button onclick="ANDBP()">Show Android Kotlin boilerplate</button>  
+            <div id="ANDBoilerPlate">
+                <p>//MainActivity:<br><br>setContent&#123;<br>AppTheme&#123;<br>Surface&#40;<br>modifier = Modifier.fillMaxSize&#40;&#41;//,<br>//color = colorScheme.background<br>
+                &#41;&#123;<br>App&#40;&#41;<br>&#125;<br>&#125;<br>&#125;<br><br>
+                </p>
+            </div>                         
         </div> <!--end of container-->
     </body> 
     <script> 
@@ -212,6 +218,19 @@
                 x.style.display = "none";            
             }
         }
+
+        document.getElementById("ANDBoilerPlate").style.display="none";
+
+        function ANDBP() {
+            var x = document.getElementById("ANDBoilerPlate");
+            if (x.style.display === "none") {
+            x.style.display = "block";
+            }
+            else {
+                x.style.display = "none";            
+            }
+        }
+        
     </script>   
 </html>
 <!--
