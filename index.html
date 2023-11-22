@@ -163,7 +163,7 @@
                 <img src="https://imgs.search.brave.com/24LyBE6pTlr5JSY9F5tkgUz4HUHAbIXELvt5cW3BEXE/rs:fit:1080:1080:1/g:ce/aHR0cHM6Ly8yc3hj/Lm9yZy9Qb3J0YWxz/LzAvYWRhbS9Db250/ZW50LzRJcUJqeDNw/WEVDN2E3LWZWWDJH/QlEvSW1hZ2UvZ2l0/aHViLWxvZ28ucG5n/P3c9MTA4MCZzY2Fs/ZT1ib3RoJnF1YWxp/dHk9NTA" style="width:16px;" alt="The github logo.">
                 This website is hosted on Github, a subsidiary of Microsoft. To see the code behind this website, visit <a target="_blank" href="https://github.com/mickaub/mickaub.github.io">Here</a>.
             </p> 
-            <button onclick="HTMLBP()">Show HTML boilerplate</button>
+            <button onclick="HTMLBP()">Show HTML BoilerPlate</button>
             <div id="HTMLBoilerPlate">
                 <p>&lt;!DOCTYPE html&gt;<br>&lt;html lang="en"&gt;<br>&lt;head&gt;<br>&lt;title&gt;<br>&lt;/title&gt;<br>
                 &lt;link rel="icon" type="image/x-icon" href="/#.ico" /&gt;<br>&lt;link rel="apple-touch-icon" sizes="64x64" href="/#.png" /&gt;<br>
@@ -173,7 +173,7 @@
                 </p>        
             </div>
             <br>
-            <button onclick="JSBP()">Show JS boilerplate</button>
+            <button onclick="JSBP()">Show JS BoilerPlate</button>
             <div id="JSBoilerPlate">
                 <p>&lt;!DOCTYPE html&gt;<br>&lt;html lang="en"&gt;<br>&lt;head><br>&lt;title&gt;<br>&lt;/title&gt;<br>
                 &lt;meta charset="UFT-8" /&gt;<br>&lt;meta name="viewport" content="width=device-width,initial-scale=1.0" /&gt;<br>
@@ -181,12 +181,9 @@
                 &lt;script&gt;<br>let text = new String;<br>text = "hello" + "&lt;br&gt;" + "world";<br>document.getElementById("TestDisplay").innerHTML = text;<br>&lt;/script&gt;<br>&lt;/html&gt;
                 </p>
             </div>   
-            <br> <!--&#123; for {, &#125; for }, &#40; for (, &#41 for )-->
-            <button onclick="ANDBP()">Show Android Kotlin boilerplate</button>  
+            <br> <!--&#123; for {, &#125; for }, &#40; for (, &#41 for )-->            
             <div id="ANDBoilerPlate">
-                <p>//MainActivity:<br><br>setContent&#123;<br>AppTheme&#123;<br>Surface&#40;<br>modifier = Modifier.fillMaxSize&#40;&#41;//,<br>//color = colorScheme.background<br>
-                &#41;&#123;<br>App&#40;&#41;<br>&#125;<br>&#125;<br>&#125;<br><br>
-                </p>
+                <p>Android BoilerPlate available at: <a target=_blank href="https://github.com/mickaub/AndroidTemplates">https://github.com/mickaub/AndroidTemplates</a></p>
             </div>                         
         </div> <!--end of container-->
     </body> 
@@ -217,19 +214,7 @@
             else {
                 x.style.display = "none";            
             }
-        }
-
-        document.getElementById("ANDBoilerPlate").style.display="none";
-
-        function ANDBP() {
-            var x = document.getElementById("ANDBoilerPlate");
-            if (x.style.display === "none") {
-            x.style.display = "block";
-            }
-            else {
-                x.style.display = "none";            
-            }
-        }
+        }    
         
     </script>   
 </html>
